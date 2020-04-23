@@ -21,6 +21,7 @@ const SUBSCRIPTIONS = [
   'presentation-pods', 'users-settings', 'guestUser', 'users-infos', 'note', 'meeting-time-remaining',
   'network-information', 'ping-pong', 'local-settings', 'users-typing', 'record-meetings', 'video-streams',
   'voice-call-states',
+  'uploaded-file',
 ];
 
 class Subscriptions extends Component {

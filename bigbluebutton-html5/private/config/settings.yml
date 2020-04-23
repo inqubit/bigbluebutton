@@ -179,6 +179,20 @@ public:
     callHangupMaximumRetries: 10
     echoTestNumber: '9196'
     relayOnlyOnReconnect: false
+  upload:
+    endpoint: /bigbluebutton/upload
+    timeout: 5000
+    media:
+      enabled: false
+      maxSize: 30000000
+      source: media
+      validFiles:
+        - extension: .mp4
+          type: video/mp4
+        - extension: .mp4
+          type: audio/mp4
+  download:
+    endpoint: /bigbluebutton/download
   presentation:
     allowDownloadable: true
     defaultPresentationFile: default.pdf
